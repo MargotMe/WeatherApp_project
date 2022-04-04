@@ -161,3 +161,19 @@ h5.day {
 .temp-days strong {
   font-size: 14px;
 }
+h4 {
+  font-family: monospace;
+  text-align: center;
+  font-size: 10px;
+  color: rgb(0 0 0 / 0.4);
+  text-decoration: none;
+}
+#source-code {
+  color: rgb(0 0 0 / 0.6);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+#source-code:hover {
+  color: rgb(0 0 0 / 0.4);
+  transition: all 200ms ease-in-out;
+}
